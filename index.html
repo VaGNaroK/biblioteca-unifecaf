@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital | UniFECAF</title>
+    <!-- Fonte Inter para tipografia limpa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. TOPO: MENU DE NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Uni<span>FECAF</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#biblioteca">Biblioteca</a></li>
+                    <li><a href="#livros">Livros</a></li>
+                    <li><a href="#unidades">Unidades</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="biblioteca">
+        <!-- 2. IMAGEM GRANDE NO TOPO (HERO BANNER) -->
+        <section class="banner-principal">
+            <img src="assets/imagens/corredor2.webp" alt="Vista ampla do salão de estudos da Biblioteca UniFECAF">
+        </section>
+
+        <!-- 3. SOBRE A NOSSA BIBLIOTECA -->
+        <section id="sobre" class="section-sobre">
+            <div class="container">
+                <h2 class="section-title">Sobre a nossa biblioteca</h2>
+                
+                <!-- Bloco: Texto - Imagem Central - Texto -->
+                <div class="sobre-trio">
+                    <div class="sobre-texto">
+                        <p>A Biblioteca UniFECAF é o centro de apoio ao ensino, à pesquisa e à extensão, com acervo físico e digital alinhado aos cursos de graduação e pós-graduação.</p>
+                        <p>Oferecemos consulta local, empréstimo domiciliar, renovação online e orientação para normalização de trabalhos acadêmicos.</p>
+                    </div>
+
+                    <div class="sobre-img-centro">
+                        <img src="assets/imagens/estante1.webp" alt="Estudante pesquisando na estante central da biblioteca">
+                    </div>
+
+                    <div class="sobre-texto">
+                        <p>Nosso espaço conta com estantes de acesso livre, salas para estudo em grupo, mesas individuais e terminais para pesquisa no catálogo e nas bases digitais.</p>
+                        <p>A equipe da biblioteca orienta na busca por fontes confiáveis, no uso da ABNT e no acesso ao portal de periódicos e e-books.</p>
+                    </div>
+                </div>
+
+                <!-- 4 Imagens abaixo -->
+                <div class="sobre-quadro-imagens">
+                    <div class="thumb-item">
+                        <img src="assets/imagens/livro1.webp" alt="Espaço de leitura e acervo">
+                    </div>
+                    <div class="thumb-item">
+                        <img src="assets/imagens/livro2.webp" alt="Salas de estudo em grupo">
+                    </div>
+                    <div class="thumb-item">
+                        <img src="assets/imagens/livro3.webp" alt="Mesas individuais de pesquisa">
+                    </div>
+                    <div class="thumb-item">
+                        <img src="assets/imagens/livro4.webp" alt="Terminal de computadores e consulta">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SEPARADOR COM IMAGEM GRANDE -->
+        <section class="banner-separador">
+            <img src="assets/imagens/corredor3.webp" alt="Panorama com corredores de livros acadêmicos">
+        </section>
+
+        <!-- 5. NOSSOS LIVROS (CONFORME O PROTÓTIPO: NOME, IMAGEM, TEXTO E BOTÃO SAIBA MAIS) -->
+        <section id="livros" class="section-livros">
+            <div class="container">
+                <h2 class="section-title-livros">NOSSOS LIVROS</h2>
+                
+                <div class="grid-livros">
+                    <!-- Livro 1 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Design Web & Interface</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Fundamentos de HTML, CSS, usabilidade e prototipação para criação de interfaces web acessíveis e responsivas.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+
+                    <!-- Livro 2 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Algoritmos e Estruturas</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Lógica de programação, estruturas de dados e análise de complexidade, base para os cursos de tecnologia.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+
+                    <!-- Livro 3 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Gestão e Inovação Ágil</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Conceitos de gestão, empreendedorismo e metodologias ágeis como Scrum e Kanban aplicados a projetos.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+
+                    <!-- Livro 4 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Arquitetura</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare vehicula aliquam. Quisque laoreet neque sit amet.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+
+                    <!-- Livro 5 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Metodologia Científica</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Etapas do projeto de pesquisa, normas ABNT, tipos de estudo e técnicas de coleta e análise de dados.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+
+                    <!-- Livro 6 -->
+                    <article class="card-livro">
+                        <h3 class="livro-nome">Bancos de Dados</h3>
+                        <div class="livro-foto">
+                            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80" alt="Capa do livro">
+                        </div>
+                        <p class="livro-desc">Modelagem relacional, SQL, NoSQL e boas práticas para projeto e administração de bancos de dados.</p>
+                        <a href="#" class="btn-saiba-mais">Saiba mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. UNIDADES (FOTO À ESQUERDA, TÍTULO + LOREM IPSUM À DIREITA) -->
+        <section id="unidades" class="section-unidades">
+            <div class="container">
+                <h2 class="section-title">Unidades</h2>
+                
+                <div class="lista-unidades">
+                    <!-- Unidade 1 -->
+                    <article class="item-unidade">
+                        <div class="unidade-foto">
+                            <img src="assets/imagens/m1.webp" alt="Unidade Taboão da Serra">
+                        </div>
+                        <div class="unidade-conteudo">
+                            <h3>Unidade Taboão da Serra</h3>
+                            <p>Campus sede com o maior acervo físico, salão de estudos, salas de trabalho em grupo e atendimento presencial para empréstimo, devolução e orientação de pesquisa.</p>
+                        </div>
+                    </article>
+
+                    <!-- Unidade 2 -->
+                    <article class="item-unidade">
+                        <div class="unidade-foto">
+                            <img src="assets/imagens/corredor2.webp" alt="Unidade Polo Central">
+                        </div>
+                        <div class="unidade-conteudo">
+                            <h3>Unidade Polo Central</h3>
+                            <p>Acervo voltado aos cursos presenciais do polo, com corredores de consulta rápida, espaço de leitura e suporte para acesso ao catálogo online e às bases digitais.</p>
+                        </div>
+                    </article>
+
+                    <!-- Unidade 3 -->
+                    <article class="item-unidade">
+                        <div class="unidade-foto">
+                            <img src="assets/imagens/corredor3.webp" alt="Unidade Polo Virtual">
+                        </div>
+                        <div class="unidade-conteudo">
+                            <h3>Unidade Polo Virtual</h3>
+                            <p>Atendimento remoto para alunos EAD, com acesso a e-books, periódicos eletrônicos, tutoriais de pesquisa e orientação via e-mail para normalização e referências.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. ÁREA DE CONTATOS (TEXTO À ESQUERDA, IMAGEM À DIREITA) -->
+        <section id="contatos" class="section-contatos">
+            <div class="container">
+                <div class="contatos-bloco">
+                    <div class="contatos-info">
+                        <h2>Contatos</h2>
+                        <p>Fale com a equipe da biblioteca para dúvidas sobre empréstimo, renovação, reservas, multas e acesso ao acervo digital. Atendemos alunos, professores e colaboradores.</p>
+                        <p>O atendimento presencial ocorre no horário de funcionamento das unidades. Para suporte online, envie e-mail ou ligue e informe seu RA, curso e unidade para agilizar a resposta.</p>
+                        <div class="contatos-dados">
+                            <p><strong>E-mail:</strong> atendimento.biblioteca@unifecaf.edu.br</p>
+                            <p><strong>Telefone:</strong> (11) 4788-8000</p>
+                        </div>
+                    </div>
+                    <div class="contatos-img">
+                        <img src="assets/imagens/contatos.webp" alt="Atendimento da biblioteca">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 UniFECAF - Biblioteca Digital. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
